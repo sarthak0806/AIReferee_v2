@@ -1,0 +1,22 @@
+# Install torch CPU first on machines without CUDA:
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+requests>=2.31
+beautifulsoup4>=4.12
+lxml>=5.0
+pymupdf>=1.24
+pypdf>=4.0
+python-dotenv>=1.0
+pydantic>=2.6
+torch>=2.2
+sentence-transformers>=3.0
+transformers>=4.40
+einops>=0.7            # nomic-embed-text-v1 (benchmark only)
+faiss-cpu>=1.8
+scikit-learn>=1.4
+rapidfuzz>=3.9
+groq>=0.9
+streamlit>=1.36
+pandas>=2.0
+reportlab>=4.2
+psutil>=5.9            # benchmark memory measurement
+pytest>=8.0

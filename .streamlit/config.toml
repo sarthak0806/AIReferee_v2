@@ -1,0 +1,20 @@
+# Streamlit settings for AIReferee (read when `streamlit run app.py` is started from this folder).
+
+[server]
+# The default file watcher inspects every imported module after each run. With
+# transformers/torch loaded it imports optional vision models and floods the
+# console with "Examining the path of transformers.models... No module named
+# 'torchvision'" tracebacks. Disabling it only turns off auto-reload on code
+# edits (restart the app after editing code).
+fileWatcherType = "none"
+runOnSave = false
+headless = true
+
+[browser]
+gatherUsageStats = false
+
+[client]
+toolbarMode = "minimal"
+
+[logger]
+level = "warning"
